@@ -1,0 +1,186 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+  
+#division {
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #cccccc;
+    padding-left: 1225px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+  
+aside {
+    background: #F38F56;
+    padding: 10px;
+    float: left;
+    width: 220px;
+    height: 80px;
+    margin-left: 473px;
+    line-height: 80px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #777777;
+    display: inline-block;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 20px;
+    background: #F38F56;
+    transition: width .3s;
+}
+
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+body {
+    background: #ffffff;
+    border-color: #dddddd;
+    background-image: url("../images/swirl_pattern.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #F38F56;
+    padding-left: 20px;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    max-width: 878px;
+    margin-left: 21px;
+}
+
+p {
+    line-height: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #F38F56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    min-height: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: #ffffffff;
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid #cccccc;    
+}
+
+#bio-image {
+    max-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.content {
+    min-height: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.content-inside {
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    height: 80px;
+    margin-top: 50px;
+    background: #666666;
+    color: #cccccc;
+    text-align: center;
+    border-top: 6px solid #F38F56;
+    line-height: 120px;
+}
+
+.image {
+    text-decoration: none;
+    padding-right: 35px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1440px) {
+    aside {
+        margin-left: 0px;
+    }
+    #division {
+        margin-left: -1000px;
+    }
+
+}
+    
+@media screen and (max-width: 768px) {
+    aside {
+        margin-left: 0px;
+    }
+    #division {
+        margin-left: -1000px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    aside {
+        clear: both;
+        width: 480px;
+    }
+    #division {
+        margin-left: -1100px;
+        clear: both;
+    }
+    h1 {
+        padding-left: 150px;
+    }
+}
