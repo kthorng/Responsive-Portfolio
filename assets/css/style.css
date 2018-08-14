@@ -9,7 +9,7 @@ html {
     background: #ffffff;
     padding: 10px;
     border-bottom: 2px solid #cccccc;
-    padding-left: 1225px;
+    padding-left: 1035px;
     padding-top: 40px;
     padding-bottom: 24px;
 }
@@ -20,7 +20,7 @@ aside {
     float: left;
     width: 220px;
     height: 80px;
-    margin-left: 473px;
+    margin-left: 280px;
     line-height: 80px;
 }
 
@@ -177,7 +177,7 @@ input[type=submit] {
         width: 452px;
     }
     #division {
-        margin-left: -1100px;
+        margin-left: -910px;
         clear: both;
     }
     h1 {
